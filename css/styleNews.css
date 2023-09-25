@@ -7,32 +7,29 @@ body {
 header{
     height: 400px;
     background-color: #d0d1d3;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://img.goodfon.ru/original/800x480/0/ca/andrei-bazanov-priroda-peizazh-permskii-krai-reka-usva-osen.jpg');
-    bottom: no-repeat;
-    background-size: cover;
+    background-image: url('https://avatars.mds.yandex.net/i?id=5f737b753ddb8d2216165ad540ab8cff_l-5163110-images-thumbs&n=13');
+    background-size:cover;
 }
 h1{ 
-    color:burlywood;
-    font-size: 4rem;
-    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 8rem;
+    font-family:'Times New Roman', Times, serif;  
 }
 
-
-.newads::before {
+.newads::before {/*применен псевдокласс к двум первым новостям*/
     content: "New";
-    padding: 0 5px;
-    color:brown;
+    padding: 0 10px 0 0;
+    color:#E13917;
     font-style: italic; 
+    text-transform: capitalize;
   }
-  article:nth-child(even) {
-    background: purple;
+  article:nth-child(even) { /*применен псевдоэлемент к каждой второй новости*/
+    background: #FEF8DF;
   }
   
-  
-
 .news {
 background-color: #fff;
 padding: 50px 0 32px;
@@ -41,7 +38,7 @@ article {
 width: 768px;
 margin: 0 auto 32px;
 padding: 6px 15px;
-border-bottom: 1px solid rgb (128, 128, 128);
+border-bottom: 1px solid rgb(128, 128, 128);
 }
 article a {
     color:rgb(33, 47, 41);
@@ -49,17 +46,18 @@ article a {
 }
 
 article a:hover{
-    color:rgb(0, 255, 106); 
+    color:#325FA9; 
     
 }
 
 article h2{
   font-family: "Segoe UT" Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
-.article-meta {
-    color:rgb(175, 204, 233);
+.article-meta  {
+    color:#CCC4BE;
     margin-bottom: 5px;
 }
 
@@ -67,6 +65,7 @@ article img{
 width: 100%;
 height: 300px;
 object-fit: cover;
+
 }
 
 footer{

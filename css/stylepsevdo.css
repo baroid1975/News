@@ -1,9 +1,0 @@
-ul:hover { /*окрашивает списки при на ведении курсора*/
-    background: orange;
-  }
-  a:hover { /*окрашивает ссылки при на ведении курсора*/
-    background: green;
-  }
-  li:nth-child(3n+1) { /*окрашивает пункты списков*/
-    background: purple;
-  }
