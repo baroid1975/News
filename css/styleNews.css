@@ -19,6 +19,13 @@ h1{
     font-family:'Times New Roman', Times, serif;  
 }
 
+h2 { 
+    font-family:'Times New Roman', Times, serif;  
+    text-transform: uppercase;
+    margin: -17px 0 0 15px;
+    letter-spacing: .5rem;
+   
+}
 .newads::before {/*применен псевдокласс к двум первым новостям*/
     content: "New";
     padding: 0 10px 0 0;
@@ -50,7 +57,7 @@ article a:hover{
     
 }
 
-article h2{
+article h3{
   font-family: "Segoe UT" Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
     text-transform: uppercase;
